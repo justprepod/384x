@@ -15,6 +15,10 @@ describe('Arithmetic functions', function(){
 		it('returns zero on zero arguments', function() {
 			assert(unit.f(0, 0) == 0);
 		});
+
+		it('returns zero on zero arguments', function() {
+			assert(unit.f(1) == undefined);		
+		});
 	})
 });
 
